@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    
+}
+
+.navbar{
+    height: 113px;
+    width: 100%;
+    background-color: #00d2c6;
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}    
+
+.left-navbar{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.right-navbar{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+.second-part img{
+    height: 27px;
+    width: 28px;
+    cursor: pointer;
+    padding: 0px 2px;
+}
+
+.first-part{
+    float: left;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.second-part{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-part p{
+    font-family: korolev-Medium;
+    padding: 0px 4px;
+}
+
+@font-face {
+    font-family: korolev-Medium;
+    src: url(korelov-heavy/Korolev\ Medium.woff);
+}
+
+.left-navbar img{
+    width: 84px;
+    height: 75px;
+    margin-left: 28px;
+    padding-bottom: 3px;
+}
+
+.section-one{
+    position: relative;
+    width: 100%;
+    height: 728px;
+}
+
+.image-one{
+    background-image: url(images/middle.webp);
+    background-size: cover;
+    width: 100%;
+    height: 728px;
+}
+
+.content-one{
+    position: absolute;
+    top: 257px;
+    left: 80px;
+}
+
+.content-one h1{       
+color: #FFFFFF;   
+text-transform: uppercase;   
+font-size: 80px;   
+font-family: korolev-heavy;
+font-weight: 500;
+line-height: 77px;
+}
+
+@font-face {
+    font-family: korolev-heavy;
+    src: url(korelov-heavy/Korolev\ Heavy.woff);
+}
+
+
+.content-one button{
+    width: 173px;
+    height: 41px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 27px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section-two{
+    position: relative;
+    width: 100%;
+    height: 728px;
+}
+
+.image-two{
+    background-image: url(images/middle2.webp);
+    background-size: cover;
+    height: 728px;
+    width: 100%;
+}
+
+.content-two{
+    position: absolute;
+    top: 53.8%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    width: 685px;
+    height: 200px;
+    background-color: rgba(10, 91, 43, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100px;
+
+}   
+
+@font-face {
+    font-family: korolev-Light;
+    src: url(korelov-heavy/Korolev\ Light.woff);
+}
+
+.content-two h1{
+    font-size: 36px;
+    margin: 20px 0px 10px;
+    font-family: korolev-Light;
+    text-transform: uppercase;
+}
+
+.content-two p{
+    font-size: 17px;
+    margin: 0px 0px 20px;
+    padding: 6px 25px;
+}
+
+.content-two button{
+    background: transparent;
+    color: white;
+    font-size: 19px;
+    padding: 7px 36px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.section-three{
+    position: relative;
+    width: 100%;
+    height: 728px;
+}
+
+.image-three{
+    background-image: url(images/middle3.webp);
+    background-size: cover;
+    height: 728px;
+    width: 100%;
+}
+
+.content-three{
+    position: absolute;
+    top: 53.8%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    width: 685px;
+    height: 200px;
+    background-color: rgba(10, 91, 43, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100px;
+}
+
+.content-three h1{
+    font-size: 36px;
+    font-family: korolev-Light;
+    text-transform: uppercase;
+    margin: 20px 0px 10px;
+}
+
+.content-three p{
+    font-size: 16px;
+    font-family: korolev-Medium;
+    margin: 0px 0px 20px;
+    padding: 6px 25px;
+}
+
+.content-three button{
+    background: transparent;
+    color: white;
+    font-size: 19px;
+    padding: 6px 35px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.footer{
+    height: 126px;
+    width: 100%;
+    background-color:#3e3e3e ;
+}
+
+.footer-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-one a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin: 16px;
+    font-family: korolev-Medium;
+}
+
+.footer-two{
+    color: white;
+    font-size: 10.5px;
+    text-align: center;
+    font-family: korolev-Medium;
+}
